@@ -33,13 +33,14 @@ const Login = ({ login, isAuthenticated }) => {
             <div className='col-1'></div>
             <div className='col-10'>
               <div className='row height-center'>
-                <div className='col' style={{marginTop: 'calc(40% - 120px)'}}>
+                <div className='col' style={{ marginTop: 'calc(40% - 120px)' }}>
                   <div className='h1 text-center text-bold login-title' style={{ color: '#FFF' }}>ALTURAS GROUP</div>
+                  <br />
                   <form className='form login-form' onSubmit={onSubmit}>
                     <div className="input-group mb-3">
                       <div className="input-group-prepend position-absolute h-100" style={{ zIndex: 10 }}>
                         <div className="input-group-text">
-                          <i className="fa fa-user" style={{fontSize: '16px'}}></i>
+                          <i className="fa fa-user" style={{ fontSize: '16px' }}></i>
                         </div>
                       </div>
                       <input
@@ -53,9 +54,9 @@ const Login = ({ login, isAuthenticated }) => {
                       />
                     </div>
                     <div className="input-group mb-2">
-                      <div className="input-group-prepend position-absolute h-100"  style={{ zIndex: 10 }}>
+                      <div className="input-group-prepend position-absolute h-100" style={{ zIndex: 10 }}>
                         <div className="input-group-text">
-                          <i className="material-icons" style={{fontSize: '16px'}}>lock_outline</i>
+                          <i className="material-icons" style={{ fontSize: '16px' }}>lock_outline</i>
                         </div>
                       </div>
                       <input
