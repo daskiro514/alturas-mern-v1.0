@@ -1,0 +1,107 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, tr, th, td, div, ul, li, input, label, textarea {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-20 {
+  font-size: 20px !important;
+}
+
+.font-13 {
+  font-size: 13px !important;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+
+.font-18 {
+  font-size: 18px !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.altrus-bg-1 {
+  background-color: #1b2559eb;
+}
+
+.pagination {
+  
+}
+
+.bg-admin {
+  background-color: #1B2559;
+  min-height: 100vh;
+}
+
+.sidebar {
+  min-height: calc(100vh - 60px);
+  background-color: #95A4B2;
+}
+
+.login-title {
+  font-size: 96px;
+  line-height: 96.77px;
+  font-family: 'Azonix';
+  margin-bottom: 15px;
+}
+
+.login-form {
+  max-width: 419px;
+  margin: 0 auto;
+}
+
+.login-form input {
+  background-color: rgb(255, 255, 255, 0.7);
+  height: 57px;
+  border-radius: 10px !important;
+}
+
+.login-form .input-group-text {
+  background-color: transparent;
+  border: 0;
+}
+
+.logo {
+  font-family: Azonix;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.title-color {
+  color: #1B2559;
+}
+
+.admin-header {
+  background-color: #1B2559;
+  height: 60px;
+}
+
+.total-balance {
+  background-color: rgba(27, 37, 89, 0.92);
+}
+
+.total-balance .h2{
+  font-size: 36px !important;
+}
+
+.table-client-store table tr th {
+  padding-top: 0;
+  padding: 5px;
+  border: 0;
+}
+
+.table-client-store table tr td {
+  padding: 5px;
+}
